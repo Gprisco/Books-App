@@ -16,6 +16,11 @@
 		01107D89252392C200C108DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01107D87252392C200C108DA /* LaunchScreen.storyboard */; };
 		01107D94252392C200C108DA /* Books_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01107D93252392C200C108DA /* Books_AppTests.swift */; };
 		01107D9F252392C200C108DA /* Books_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01107D9E252392C200C108DA /* Books_AppUITests.swift */; };
+		01107DB72523937C00C108DA /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01107DB62523937C00C108DA /* BookDetails.swift */; };
+		01107DBC2523938B00C108DA /* BookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01107DBB2523938B00C108DA /* BookCard.swift */; };
+		01107DD22523944A00C108DA /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01107DD12523944A00C108DA /* Book+CoreDataProperties.swift */; };
+		01107DD72523948A00C108DA /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01107DD62523948A00C108DA /* Book+CoreDataClass.swift */; };
+		01695F0D2524E65E00E0B795 /* ProgressCircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01695F0C2524E65E00E0B795 /* ProgressCircleBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		01107D9A252392C200C108DA /* Books AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Books AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01107D9E252392C200C108DA /* Books_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books_AppUITests.swift; sourceTree = "<group>"; };
 		01107DA0252392C200C108DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01107DB62523937C00C108DA /* BookDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		01107DBB2523938B00C108DA /* BookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCard.swift; sourceTree = "<group>"; };
+		01107DD12523944A00C108DA /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		01107DD62523948A00C108DA /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		01695F0C2524E65E00E0B795 /* ProgressCircleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,8 @@
 		01107D6D252392C100C108DA = {
 			isa = PBXGroup;
 			children = (
+				01107DD62523948A00C108DA /* Book+CoreDataClass.swift */,
+				01107DD12523944A00C108DA /* Book+CoreDataProperties.swift */,
 				01107D78252392C100C108DA /* Books App */,
 				01107D92252392C200C108DA /* Books AppTests */,
 				01107D9D252392C200C108DA /* Books AppUITests */,
@@ -104,6 +116,9 @@
 				01107D79252392C100C108DA /* AppDelegate.swift */,
 				01107D7B252392C100C108DA /* SceneDelegate.swift */,
 				01107D7D252392C100C108DA /* ContentView.swift */,
+				01107DBB2523938B00C108DA /* BookCard.swift */,
+				01695F0C2524E65E00E0B795 /* ProgressCircleBar.swift */,
+				01107DB62523937C00C108DA /* BookDetails.swift */,
 				01107D82252392C200C108DA /* Assets.xcassets */,
 				01107D87252392C200C108DA /* LaunchScreen.storyboard */,
 				01107D8A252392C200C108DA /* Info.plist */,
@@ -271,8 +286,13 @@
 			files = (
 				01107D81252392C100C108DA /* Books_App.xcdatamodeld in Sources */,
 				01107D7A252392C100C108DA /* AppDelegate.swift in Sources */,
+				01107DD72523948A00C108DA /* Book+CoreDataClass.swift in Sources */,
 				01107D7C252392C100C108DA /* SceneDelegate.swift in Sources */,
 				01107D7E252392C100C108DA /* ContentView.swift in Sources */,
+				01107DBC2523938B00C108DA /* BookCard.swift in Sources */,
+				01695F0D2524E65E00E0B795 /* ProgressCircleBar.swift in Sources */,
+				01107DD22523944A00C108DA /* Book+CoreDataProperties.swift in Sources */,
+				01107DB72523937C00C108DA /* BookDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
